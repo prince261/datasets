@@ -1,0 +1,125 @@
+Apply style sheet in Web page. [inline, embedded and linked]
+
+ ext.css
+
+hr 
+
+{
+
+color:sienna;
+
+}
+
+p 
+
+{
+
+margin-left:20px;
+
+}
+
+body 
+
+{
+
+background-image:url("sheet.jpg");
+
+}
+
+ stylesheet.html
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="ext.css">
+
+<style>
+
+h1
+
+{
+
+background-color:#6495ed;
+
+}
+
+p
+
+{
+
+background-color:#e0ffff;
+
+}
+
+div
+
+{
+
+background-color:#b0c4de;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Internal, External & Inline Style!</h1>
+
+<div>Text inside a div element.
+
+<p>paragraph background color</p>
+
+still in the div element.
+
+</div>
+
+<p style="color:red;margin-left:20px;">Hello world.</</tr><tr>
+
+<td></td>
+
+<td><input type=checkbox name=lk value=Hindi 
+
+checked>Hindi</td>
+
+</tr><tr>
+
+<td></td>
+
+<td><input type=checkbox name=lk value=English 
+
+checked>English</td>
+
+</tr><tr>
+
+<td></td>
+
+<td><input type=checkbox name=lk value=Marathi >Marathi</td>
+
+</tr><tr>
+
+<td>Additional Information</td>
+
+<td><textarea name=add rows=3 cols=20 placeholder="Optional" 
+
+wrap></textarea></td>
+
+</tr><tr>
+
+<td></td>
+
+<td><input type=submit value=submit>&nbsp;<input type=reset 
+
+value=reset></td>
+
+</table>
+
+</form>
+
+</body>
+
+</html>
+
+OUTPUT
